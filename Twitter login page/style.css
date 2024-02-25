@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    row-gap: 60px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    width: 500px;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.txt p{
+    font-size: 40px;
+    font-weight: 540;
+}
+
+
+.second{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 70px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+}
+.d{
+    display: flex;
+    justify-content: center;
+}
+
+.top img{
+    width: 50px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(189, 183, 183);
+    padding: 6px 60px;
+    border-radius: 20px;
+    gap: 5px;
+}
+.tp img{
+    width: 30px;
+    aspect-ratio: 1/1;
+}
+
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(189, 183, 183);
+    border-radius: 20px;
+    padding: 6px 60px;
+    gap: 5px;
+}
+
+.bt img{
+    width: 30px;
+    aspect-ratio: 1/1;
+}
+
+.m{
+    position: relative;
+}
+.m p{
+    position: absolute;
+    left: 50%;
+    top: -11px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px white, -5px 5px white;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inp input{
+    padding: 10px;
+}
+
+.inp button{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(189, 183, 183);
+    cursor: pointer;
+}
+
+#btn{
+    background-color: black;
+    color: white;
+    font-weight: 550;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+}
+
+.last a{
+    color: rgb(12, 183, 250);
+    font-weight: 600;
+}
+

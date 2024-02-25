@@ -1,0 +1,142 @@
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: greenyellow;
+    position: relative;
+    transition: all .8s;
+}
+
+.main{ 
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main .x{
+    position: absolute;
+    bottom: 40%;
+    color: red;
+    font-weight: 1000;
+    background-color: transparent;
+    transform: rotate(180deg);
+    border: 1px solid black;
+    left: 1%;
+    border-radius: 10px;
+}
+
+.main .y{
+    position: absolute;
+    bottom: 40%;
+    right: 1%;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    font-weight: 1000;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.main button{
+    transition: all 0.8s;
+}
+
+.main button:hover{
+    background-color: black;
+    color: white;
+}
+.sub_main{
+    display: flex;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.sub_main img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.toogle{
+    width: 80px;
+    height: 40px;
+    border: 3px solid white;
+    position: fixed;
+    right: 18%;
+    top: 23%;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+}
+
+.point{
+    width: 27px;
+    height: 27px;
+    border: 4px solid rgb(199, 196, 196);
+    background-color: yellow;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    
+}
+.lmo{
+    transition: background-color 0.8s;
+    background-color: black;
+    
+}
+
+.move_right{
+    animation-name: move;
+    animation-duration: .4s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    background-color: white;
+    animation-fill-mode: forwards;
+}
+.xyz{
+    background-color: black;
+    
+}
+
+.move_left{
+    animation-name: moveBack;
+    animation-duration: .4s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+@keyframes move {
+    0%{
+        padding-left: 0px;
+    }
+   
+    100%{
+        padding-left:40px;
+    }
+    
+}
+
+@keyframes moveBack {
+    0%{
+        padding-left: 40px;
+    }
+   
+    100%{
+        padding-left:0px;
+    }
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 4px 5px black;
+    position: fixed;
+    transition: background-color 0.8s;
+}
+
+.top_first{
+    margin-left: 20px;
+    color: red;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.end{
+    margin-right: 40px;
+    display: flex;
+    column-gap: 30px;
+    font-family: cursive;
+    font-weight: 600;
+    transition: color 0.8s;
+}
+
+.image{
+   background-image: url(image/BAR.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image h1{
+    color:white;
+    text-align: center;
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.para{
+    font-family: cursive;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+}
+
+.active{
+    background-color: black;
+}
+.active .end{
+    color: white;
+}

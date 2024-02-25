@@ -1,0 +1,25 @@
+.mainCOntainer{
+    text-align: center;
+}
+
+.gameArea{
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.score{
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.reset{
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: burlywood;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}

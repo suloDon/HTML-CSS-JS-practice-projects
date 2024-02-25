@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURAJ x Project</title>
+    <link rel="stylesheet" href="project_two.css">
+</head>
+<body>
+    <div class="main">
+        <p id="time">00:00:00</p>
+    </div>
+
+    <div class="proj">
+        <div class="proo">
+            <label id="Score">Score: 0</label>
+        </div>
+        <div class="questions">
+            
+            <form id="form1">
+                <label id="qtion">Whst is 2 multiply by 5 ?</label>
+                <input id="ans" type="text" placeholder="Answer" autocomplete="off">
+                <button id = "button" type="submit">Submit</button>
+                <button id = "reset" onclick="
+                localStorage.removeItem('score');
+                ">Reset</button>
+            </form>    
+        </div>
+    </div>
+    <div class="mainG">
+        <div class="game">
+            <label class="show" id="sho">computer:XXXXX You : XXXX</label>
+        </div>
+        <div class="buttons">
+            <button id="rock">rock</button>
+            <button id="paper">paper</button>
+            <button id="scissors">scissors</button>
+        </div>
+        <div class="Results">
+            <label id="res">Result: Won:0 lost:0 Draw:0</label>
+        </div>
+        <div class="rest">
+            <button id="rset" class="rs"><span>reset</span></button>
+        </div>
+    </div>
+
+    <div class = "mainGame">
+        <p id="xn">Tik Tak Toe</p>
+        <div class="tikTak">
+            <div class="bx"></div>
+            <div class="bx"></div>
+            <div class="bx"></div>
+            <div class="bx"></div>
+            <div class="bx"></div>
+            <div class="bx"></div>
+            <div class="bx"></div>
+            <div class="bx"></div>
+            <div class="bx"></div>
+        </div>
+    </div>
+   
+    
+    
+    
+    <script src="One.js"></script>
+</body>
+</html>
